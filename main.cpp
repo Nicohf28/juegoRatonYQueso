@@ -61,6 +61,10 @@ int main() {
         imprimir_tablero(matriz_tablero);
         imprimir_tabla(percepciones, acciones, total_percepciones);
 	}
+	
+	// Al salir del while del juego...
+	cout << "FIN DEL JUEGO. Ingresa ENTER de nuevo para salir." << endl;
+	cin.get(); // Recibe el ENTER.
 			
 	return 0;
 }
