@@ -1,4 +1,4 @@
-#include "tablero.h" // Para poder utilizar las variables globales y los #include de 'tablero.h'.
+#include "tablero.h" // Para poder utilizar las constantes globales y los #include de 'tablero.h'.
 
 // ============== Funciones: Tablero ==================
 void inicializar_tablero(string matriz_tablero[FILAS][COLUMNAS]) {
